@@ -1,0 +1,56 @@
+body{
+	background-color: grey;
+}
+
+.container{
+	height: 100vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.cube{
+	height: 150px;
+	width: 150px;
+	display: flex;
+	background-color: #ffffff;
+	border-radius: 20px;
+}
+
+.point{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #000000;
+}
+
+.cube-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 10px 10px 10px 10px;
+}
+
+.cube-1{
+	justify-content: center;
+	align-items: center;
+}
+
+.cube-2{
+	justify-content: space-between;
+}
+
+.cube-3{
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cube-4, .cube-5, .cube-6{
+	justify-content: space-between;
+}
+
+.cube-section-5{
+	height: 150px;
+	display: flex;
+	align-items: center;
+}
