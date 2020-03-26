@@ -15,6 +15,7 @@ body{
 	display: flex;
 	background-color: #ffffff;
 	border-radius: 20px;
+	padding: 15px;
 }
 
 .point{
@@ -24,33 +25,50 @@ body{
 	background-color: #000000;
 }
 
-.cube-section{
+.cube-column{
+	height: 150px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin: 10px 10px 10px 10px;
 }
 
-.cube-1{
+.first-cube{
 	justify-content: center;
 	align-items: center;
 }
 
-.cube-2{
+.second-cube{
 	justify-content: space-between;
 }
 
-.cube-3{
-	justify-content: space-between;
-	align-items: center;
+.second-cube .point:nth-of-type(2){
+	align-self: flex-end;
 }
 
-.cube-4, .cube-5, .cube-6{
+.third-cube{
 	justify-content: space-between;
 }
 
-.cube-section-5{
-	height: 150px;
-	display: flex;
-	align-items: center;
+.third-cube .point:nth-of-type(2){
+	align-self: center;
+}
+
+.third-cube .point:nth-of-type(3){
+	align-self: flex-end;
+}
+
+.fourth-cube{
+	justify-content: space-between;
+}
+
+.fifth-cube{
+	justify-content: space-between;	
+}
+
+.fifth-cube .point:nth-of-type(2){
+	align-self: center;
+}
+
+.sixth-cube {
+	justify-content: space-between;
 }
