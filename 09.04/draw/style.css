@@ -1,0 +1,54 @@
+body{
+	display: flex;
+	margin: 0 auto;
+	max-width: 1140px;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.tree__oval{
+	width: 150px;
+	height: 250px;
+	background: greenyellow;
+	-moz-border-radius: 500px / 400px;
+	-webkit-border-radius: 500px / 400px;
+	border-radius: 500px / 400px;
+}
+
+.tree__rectangle {
+	width: 50px;
+	height: 200px;
+	background: brown;
+	margin-left: 50px;
+}
+
+
+.christmas-tree{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.christmas-tree__triangle-1{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid green;
+}
+
+.christmas-tree__triangle-2{
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 125px solid green;
+}
+
+.christmas-tree__triangle-3{
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid green;
+}

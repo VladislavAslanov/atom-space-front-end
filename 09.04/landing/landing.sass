@@ -1,0 +1,100 @@
+body 
+	background: #f1f1f1
+	font-family: Raleway, sans-serif
+	background-image: url(../landing/bg.jpg)
+	color: #ffffff
+
+.container 
+  max-width: 1140px
+  margin: 0 auto
+
+
+*, *:before, *:after 
+  border-box
+
+
+html, body 
+  overflow-x: hidden
+
+
+img 
+  text-decoration: none
+  max-width: 100%
+
+
+button 
+  outline: none
+  cursor: pointer
+
+
+a 
+  text-decoration: none
+  color: #ffffff
+
+
+a:focus 
+  outline: none
+  text-decoration: none
+
+.navbar
+	display: flex
+	justify-content: space-between
+	height: 80px
+	align-items: center
+	&-logo
+		font-weight: 600
+		font-size: 24px
+		&__point
+			font-weight: 900
+			color: #00ff00
+	&-menu
+		width: 60px
+		display: flex
+		justify-content: space-between
+		&__title
+			text-transform: uppercase
+			color: #008000
+			font-size: 15px
+		&__lines
+			display: flex
+			flex-direction: column
+		&__line
+			height: 1px
+			width: 25px
+			color: #ffffff
+
+.hero
+	display: flex
+	justify-content: space-between
+	margin-top: 200px
+	&__suptitle
+		text-transform: uppercase
+		color: grey 
+		font-weight: 500
+	&-title
+		font-size: 48px
+		margin-top: 15px
+	&-buttons
+		text-transform: uppercase
+		background: transparent
+		font-size: 14px
+		margin-top: 80px
+		&__start
+			border: 2px solid #ffffff
+			padding: 10px 20px 
+			margin-right: 20px
+		&__more
+			border: 2px solid #ffffff
+			padding: 10px 20px 
+	&-links
+		display: flex
+		flex-direction: column
+	&__img
+		max-width: 35px
+		max-height: 35px
+		margin-bottom: 15px
+	&-footer
+		display: flex
+		position: absolute
+		height: 20px
+		width: 20px
