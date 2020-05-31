@@ -1,0 +1,67 @@
+.aside
+	float: right
+	max-width: 440px
+	&__article
+		background-color: #ffffff
+		box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19)
+		&-img
+			width: 440px
+		&-title
+			padding-left: 15px
+			padding-bottom: 10px	
+		&-text
+			width: 400px
+			padding-left: 15px
+			padding-bottom: 15px
+			line-height: 1.5
+	&__posts
+		box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19)
+		margin-top: 50px
+		&-title
+			font-size: 22px
+			background: #f1f1f1
+			padding: 23px 16px
+		&-item
+			height: 82px
+			display: flex
+			padding: 16px 0px 16px 16px
+			background: #ffffff
+			border-bottom: 2px solid #f1f1f1
+			cursor: pointer
+			transition: .3s
+			&:last-child
+				border-bottom: none
+			&:hover
+				background-color: #cbcbcb
+		&-img
+			max-width: 50px
+			max-height: 50px
+		&-text
+			display: flex
+			flex-direction: column
+			margin-left: 16px
+			min-height: 50px
+			line-height: 5px
+		&-heading
+			margin: 8px 0px 20px 0px 
+	&__tags
+		margin-top: 50px
+		box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19)
+		&-title
+			font-size: 22px
+			background: #f1f1f1
+			padding: 23px 16px
+		&-items
+			background: #ffffff
+			padding: 10px 0px 10px 16px
+			display: flex
+			flex-wrap: wrap
+			font-size: 15px
+		&-item
+			padding: 3px
+			background-color: #f1f1f1
+			margin: 0px 8px 20px 0px
+			cursor: pointer
+			&:first-child
+				color: #ffffff
+				background: #000000
